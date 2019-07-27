@@ -7,8 +7,13 @@ import 'styles/reset.css'//引入不同手机的尺寸适配
 import 'styles/border.css'//像素边框
 import fastClick from 'fastClick'
 import 'styles/iconfont.css'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+import 'swiper/dist/css/swiper.css'
+
 Vue.config.productionTip = false
 fastClick.attach(document.body)
+Vue.use(VueAwesomeSwiper)
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
